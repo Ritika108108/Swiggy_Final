@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "530402648661",
+    "project_id": "swiggy-application-2aaf1",
+    "storage_bucket": "swiggy-application-2aaf1.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:530402648661:android:27588e515c0729610a6adc",
+        "android_client_info": {
+          "package_name": "com.example.swiggy_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7WUqh1s9mGTG9GBK2hSmhi-BIv8JqmeE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

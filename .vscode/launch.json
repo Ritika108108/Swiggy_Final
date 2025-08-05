@@ -1,0 +1,28 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "swiggy_app-main",
+            "cwd": "swiggy_app-main",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "swiggy_app-main (profile mode)",
+            "cwd": "swiggy_app-main",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "swiggy_app-main (release mode)",
+            "cwd": "swiggy_app-main",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}

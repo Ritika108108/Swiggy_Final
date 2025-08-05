@@ -1,0 +1,183 @@
+name: swiggy_app
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.8
+  firebase_core: ^4.0.0
+  firebase_auth: ^6.0.0
+  google_sign_in: ^7.1.1
+  get: ^4.7.2
+  flutter_facebook_auth: ^7.1.2
+  pinput: ^5.0.1
+  country_picker: ^2.0.27
+  flutter_svg: ^2.2.0
+  http: ^1.4.0
+  intl_phone_field: ^3.2.0
+  cloud_firestore: ^6.0.0
+  firebase_storage: ^13.0.0
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^5.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/burger.png
+    - assets/images/google.png
+    - assets/images/facebook.png
+    - assets/images/india.png
+    - assets/images/food.jpeg
+    - assets/images/instamart.png
+    - assets/images/dineout.jpeg
+    - assets/images/scenes.jpg
+    - assets/images/credit_card.jpeg
+    - assets/images/banner_slot.png
+    - assets/images/food1.jpeg
+    - assets/images/food2.jpeg
+    - assets/images/food3.jpeg
+    - assets/images/food4.jpeg
+    - assets/images/food5.jpeg
+    - assets/images/food6.jpeg
+    - assets/images/food7.jpeg
+    - assets/images/food8.jpeg
+    - assets/images/food9.png
+    - assets/images/food10.png
+    - assets/images/train_meal.jpg
+    - assets/images/restaurant1.jpeg
+    - assets/images/restaurant2.jpeg
+    - assets/images/restaurant3.jpeg
+    - assets/images/restaurant4.jpeg
+    - assets/images/restaurant5.jpeg
+    - assets/images/restaurant6.jpeg
+    - assets/images/restaurant7.jpeg
+    - assets/images/restaurant8.jpeg
+    - assets/images/shravan.jpeg
+    - assets/images/burger1.jpeg
+    - assets/images/pizza.jpeg
+    - assets/images/biryani.jpeg
+    - assets/images/chinese.jpeg
+    - assets/images/offer_zone.jpg
+    - assets/images/high_protein.jpeg
+    - assets/images/cakes.jpeg
+    - assets/images/paratha.jpeg
+    - assets/images/khichdi.jpeg
+    - assets/images/shake.jpeg
+    - assets/images/gemini.png
+    - assets/images/chocobake.png
+    - assets/images/kurkure.png
+    - assets/images/cashback.jpg
+    - assets/images/coriander.jpg
+    - assets/images/potato.jpg
+    - assets/images/amul_dahi.jpg
+    - assets/images/tomato.jpg
+    - assets/images/milk.jpg
+    - assets/images/bread.jpg
+    - assets/images/meat.jpg
+    - assets/images/sauce.jpg
+    - assets/images/tea.jpg
+    - assets/images/biscuits.jpg
+    - assets/images/dryfruits.jpg
+    - assets/images/masala.jpg
+    - assets/images/oil.jpg
+    - assets/images/atta.jpg
+    - assets/images/cereals.jpg
+    - assets/images/dairy.jpg
+    - assets/images/fresh_fruits.jpg
+    - assets/images/fresh_vegetables.jpg
+    - assets/images/dineout_spotlight.png
+    - assets/images/dineout_spotlight1.jpg
+    - assets/images/cafe.jpg
+    - assets/images/buffet.jpg
+    - assets/images/rooftop.jpg
+    - assets/images/luxury.jpg
+    - assets/images/buy_one.png
+    - assets/images/pubs.jpg
+    - assets/images/family.jpg
+    - assets/images/pureveg.jpg
+    - assets/images/newlyopened.jpg
+    - assets/images/restaurant_2.jpg
+    - assets/images/restaurant_1.jpg
+    - assets/images/restaurant_3.jpg
+    - assets/images/restaurant_4.jpg
+    - assets/images/restaurant_5.jpg
+    - assets/images/restaurant_6.jpg
+    - assets/images/restaurant_7.jpg
+    - assets/images/restaurant_8.jpg
+    
+  
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/to/resolution-aware-images
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/to/asset-from-package
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/to/font-from-package
